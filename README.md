@@ -1,6 +1,6 @@
 # Add Math Equations To Wix 
 
-This repository provides a quick guide to adding [MathJax](https://www.mathjax.org/) support to Wix to enable both inline and regular equations without having an explicit iframe'd textbox. Most of this tutorial solidifies the instructions from [Zack Whitlock's blogpost](https://www.zackwhitlock.com/). 
+This repository provides a quick guide to adding [MathJax](https://www.mathjax.org/) support to Wix to enable both inline and regular equations without having an explicit iframe'd textbox. Most of this tutorial solidifies the instructions from [Zack Whitlock's blogpost](https://www.zackwhitlock.com/post/getting-mathjax-to-work-with-wix). 
 
 - Add the following two code snippets to the code section of Wix. I only use them within blog posts, hence, they are only added to the post template. Make sure to add them to the `head`.
   - The first script essentially dynamically loads the MathJax library and configures it for your web page. It sets the configuration to load specific components, such as 'asciimath' input, 'lazy' user interface, 'chtml' output, and 'menu' user interface. It has an immediately-invoked function that actually appends the script to load MathJax to the head of the HTML file.
