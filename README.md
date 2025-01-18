@@ -1,4 +1,8 @@
-# Add Math Equations To Wix 
+# ⚠️ **Archived Repository**
+
+This solution is outdated as of Jan 2025. This repository is no longer maintained and has been archived.
+
+## Add Math Equations To Wix 
 
 This repository provides a quick guide to adding [MathJax](https://www.mathjax.org/) support to Wix to enable both inline and regular equations without having an explicit iframe'd textbox. Most of this tutorial solidifies the instructions from [Zack Whitlock's blogpost](https://www.zackwhitlock.com/post/getting-mathjax-to-work-with-wix). 
 
